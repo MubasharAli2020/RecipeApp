@@ -1,0 +1,35 @@
+.recipe {
+    width: 35%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 1%;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .recipe {
+      width: 90vw;
+      margin: 30px auto;
+    }
+  }
+  
+  .image {
+    width: 100%;
+    object-fit: contain;
+  }
+  .title {
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    justify-content: space-between;
+  }
+  .sub_item {
+    font-size: 20px;
+    text-align: center;
+  }
+  .recipe ul li {
+      line-height: 40px;
+      font-size: 25px;
+  }
